@@ -1,0 +1,40 @@
+.product-listing {
+  text-align: center;
+}
+
+.product-category {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.product-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  width: 200px;
+}
+
+.product-card h3 {
+  margin: 0;
+  font-size: 1.2em;
+}
+
+.product-card p {
+  margin: 8px 0;
+}
+
+.product-card button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.product-card button:disabled {
+  background-color: #ddd;
+  cursor: not-allowed;
+}
