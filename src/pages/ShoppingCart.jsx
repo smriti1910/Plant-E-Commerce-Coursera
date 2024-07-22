@@ -15,7 +15,7 @@ function ShoppingCart({ cart, setCart }) {
             <h1>Shopping Cart</h1>
             <p>Total Items: {totalItems}</p>
             <p>Total Price: ${totalPrice.toFixed(2)}</p>
-            <button onClick={() => alert('Coming Soon')}>Checkout</button>
+            <button onClick={() => alert('Purchased Successfully')}>Checkout</button>
             <button onClick={() => window.location.href = '/'}>Continue Shopping</button>
             <div className="cart-items">
                 {cart.map((product, index) => (
