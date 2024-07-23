@@ -22,7 +22,7 @@ function App() {
                     <Route path="/cart" element={<ShoppingCart cart={cart} setCart={setCart} />} />
                 </Routes>
                 <footer className="footer">
-                    <p className="footer2">© 2024 Siddarthan. All rights reserved.</p>
+                    <p className="footer2">© 2024 Smriti. All rights reserved.</p>
                 </footer>
             </div>
         </Router>
